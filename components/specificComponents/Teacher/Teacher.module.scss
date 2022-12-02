@@ -80,7 +80,7 @@
 
 .rich-text-section {
   margin: 35px 17px 50px 18px;
-  
+  background-color: $color-red-light;
   &--with-navigator {
     @extend .rich-text-section;
   }
