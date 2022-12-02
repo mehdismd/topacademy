@@ -11,8 +11,7 @@ export default class blogpost extends Component {
     render() {
         return (
             <div>
-                blogpost: {this.props.blok.title}</div>
-        ) ;
-
+                blogpost:{this.props.blok.title}</div>
+        );
     }
 }
