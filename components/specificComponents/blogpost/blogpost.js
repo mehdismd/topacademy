@@ -2,7 +2,7 @@
 
 import React, { Component } from "react";
 
-export default class blogpost extends Component {
+export default class Location extends Component {
     constructor(props) {
 
         super(props);
@@ -11,7 +11,7 @@ export default class blogpost extends Component {
     render() {
         return (
             <div>
-                blogpost:{this.props.blok.title}</div>
+                Location:{this.props.blok.title}</div>
         );
     }
 }
