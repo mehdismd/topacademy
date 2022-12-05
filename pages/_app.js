@@ -44,7 +44,7 @@ const components = {
   threecol: ThreeCol,
   imagecarousel: ImageCarousel,
   location: Location,
-  blogpost: blogpost
+  blogpost: Blogpost
 };
 
 storyblokInit({
