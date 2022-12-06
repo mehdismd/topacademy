@@ -42,6 +42,14 @@ export default class Course extends Component {
 								))}
 							</section>
 						</div>
+						<div id="course-page__short-description" key="course-page__short-description" className={css["course-page__short-description"]}>
+							<section className={css["rich-text-section--with-navigator"]}>
+								<h2 className={css["rich-text-section__title"]}>blogpost</h2>
+								{this.props.blok.blogpost && this.props.blok.blogpost.map((blogpost) => (
+									<Element blok={blogpost} key={blogpost._uid} />
+								))}
+							</section>
+						</div>
 					</div>
 
 					{this.props.blok.bottombloks && this.props.blok.bottombloks.map((nestedBlok) => (
