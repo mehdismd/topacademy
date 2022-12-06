@@ -13,7 +13,7 @@ export default function Page({ story, preview, socialtags, menu }) {
       "blogposts.colorcode",
       "course.teachers",
       "course.locations",
-      "course.blogposts",
+      "course.blogpost",
       "list.elements"
     ]
   }, preview);
@@ -41,7 +41,7 @@ export async function getStaticProps({ params }) {
       "blogposts.colorcode",
       "course.teachers",
       "course.locations",
-      "course.blogposts",
+      "course.blogpost",
       "list.elements"
     ]
   };
