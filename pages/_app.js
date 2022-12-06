@@ -24,6 +24,7 @@ import TwoCol from '../components/layoutComponents/TwoCol/TwoCol';
 import ThreeCol from '../components/layoutComponents/ThreeCol/ThreeCol';
 import ImageCarousel from '../components/genericComponents/ImageCarousel/ImageCarousel';
 import Location from '../components/specificComponents/Location/Location';
+import Blogposts from '../components/specificComponents/Blogposts/Blogposts';
 
 const components = {
   person: Teacher,
@@ -43,7 +44,7 @@ const components = {
   threecol: ThreeCol,
   imagecarousel: ImageCarousel,
   location: Location,
-  Blogpost: Blogpost
+  Blogposts: Blogposts
 };
 
 storyblokInit({
