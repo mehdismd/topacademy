@@ -2,7 +2,7 @@
 @import "../../../styles/colors.scss";
 
 
-.blogposts {
+.blogposts-page {
 
   &__main-content {
     display: grid;
@@ -20,13 +20,13 @@
 
 
 @media only screen and (min-width: 500px) {
-  .blogposts {}
+  .blogposts-page {}
 }
 
 
 
 @media only screen and (min-width: 850px) {
-  .blogposts {
+  .blogposts-page {
 
     &__main-content {
       grid-template-columns: auto 552px auto;
@@ -43,7 +43,7 @@
 
 
 @media only screen and (min-width: 1250px) {
-  .blogposts {
+  .blogposts-page {
 
     &__main-content {
       grid-template-columns: auto 729px auto;
@@ -58,7 +58,7 @@
 
 
 @media only screen and (min-width: 1400px) {
-  .blogposts {
+  .blogposts-page {
 
     &__main-content {
       grid-template-columns: auto 835px auto;
@@ -69,7 +69,7 @@
 
 
 @media only screen and (min-width: 1600px) {
-  .blogposts {
+  .blogposts-page {
 
     &__main-content {
       grid-template-columns: auto 920px auto;
