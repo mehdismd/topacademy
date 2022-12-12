@@ -140,7 +140,7 @@
     }
     
     &:hover {
-      background-color: $color-blue-ultra-light;
+      background-color: $color-red-ultra-light;
     }
   }
 
@@ -184,7 +184,7 @@
       padding-top: 20px;
       > a:hover, > p:hover {
         cursor: pointer;
-        color: $color-blue-normal;
+        color: $color-red-normal;
       }
     }
 
@@ -194,7 +194,7 @@
 
       > a:hover, Link:hover {
         cursor: pointer;
-        color: $color-blue-normal;
+        color: $color-red-normal;
       }
     }
 
@@ -204,7 +204,7 @@
       margin-bottom: 40px;
 
       > a:hover {
-        color: $color-blue-normal;
+        color: $color-red-normal;
       }
     }
     &--joinus {
@@ -251,7 +251,7 @@ p.main-header__dropdown-item-text {
 
 span.main-header__dropdown-item-text--highlighted {
   margin-bottom: 0;
-  @include header-font($color-blue-normal);
+  @include header-font($color-red-normal);
 }
 
 
