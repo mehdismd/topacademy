@@ -124,7 +124,7 @@
     padding: 15px;
     border-radius: 14px;
     border: 2px solid $color-default;
-    background-color: white;
+    background-color: rgb(248, 186, 0);
     transform: translateX(-50%);
   }
   
@@ -152,7 +152,7 @@
     z-index: 10;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(255, 196, 0, 0.7);
   }
 
   &__expanded-nav-list {
@@ -160,7 +160,7 @@
     width: 75%;
     min-width: 270px;
     height: 100%;
-    background-color: white;
+    background-color: rgb(255, 238, 1);
     overflow-y: auto;
     animation-name: slideInLeft;
     animation-duration: 500ms;
@@ -226,7 +226,7 @@
     padding: 15px;
     border-radius: 14px;
     border: 2px solid $color-default;
-    background-color: white;
+    background-color: rgb(255, 196, 0);
     
     &--open {
       @extend .main-header__expanded-nav-dropdown;
