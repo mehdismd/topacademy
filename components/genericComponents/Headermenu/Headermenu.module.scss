@@ -58,7 +58,7 @@
 
     > a:hover, Link:hover {
       cursor: pointer;
-      color: $color-red-normal;
+      color: $color-blue-normal;
     }
     
     &--menu {
@@ -124,7 +124,7 @@
     padding: 15px;
     border-radius: 14px;
     border: 2px solid $color-default;
-    background-color: rgb(248, 186, 0);
+    background-color: rgb(255, 255, 255);
     transform: translateX(-50%);
   }
   
@@ -152,7 +152,7 @@
     z-index: 10;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 196, 0, 0.7);
+    background-color: rgba(255, 255, 255, 0.7);
   }
 
   &__expanded-nav-list {
@@ -160,7 +160,7 @@
     width: 75%;
     min-width: 270px;
     height: 100%;
-    background-color: rgb(255, 238, 1);
+    background-color: rgb(255, 255, 255);
     overflow-y: auto;
     animation-name: slideInLeft;
     animation-duration: 500ms;
@@ -184,7 +184,7 @@
       padding-top: 20px;
       > a:hover, > p:hover {
         cursor: pointer;
-        color: $color-red-normal;
+        color: $color-blue-normal;
       }
     }
 
@@ -194,7 +194,7 @@
 
       > a:hover, Link:hover {
         cursor: pointer;
-        color: $color-red-normal;
+        color: $color-blue-normal;
       }
     }
 
@@ -204,7 +204,7 @@
       margin-bottom: 40px;
 
       > a:hover {
-        color: $color-red-normal;
+        color: $color-blue-normal;
       }
     }
     &--joinus {
@@ -226,7 +226,7 @@
     padding: 15px;
     border-radius: 14px;
     border: 2px solid $color-default;
-    background-color: rgb(255, 196, 0);
+    background-color: rgb(255, 255, 255);
     
     &--open {
       @extend .main-header__expanded-nav-dropdown;
@@ -251,7 +251,7 @@ p.main-header__dropdown-item-text {
 
 span.main-header__dropdown-item-text--highlighted {
   margin-bottom: 0;
-  @include header-font($color-red-normal);
+  @include header-font($color-blue-normal);
 }
 
 
